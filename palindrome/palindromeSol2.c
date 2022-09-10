@@ -17,14 +17,17 @@ int main()
         {
             sen[i] = tolower(sen[i]);
             cen[c] = sen[i];
+            
             c++;
+            
         }
     }
-    size -= 1;
+    size = strlen(cen) - 1;
     for(int i = 0; i <= size/2 ; i++)
     {
         if(cen[i] != cen[size - i])
         {
+            printf("%c %c\n",cen[i] ,cen[size-i]);
             check++;
         }
     }

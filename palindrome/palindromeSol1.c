@@ -30,7 +30,7 @@ int main(){
     int check = 0;
     for(int i = 0; i <= sizeSen-1; i++)
     {
-        printf("%c %c\n",sen[i] ,revsen[i]);
+        //printf("%c %c\n",sen[i] ,revsen[i]);
         if(sen[i] != revsen[i])
         {
             check++;
